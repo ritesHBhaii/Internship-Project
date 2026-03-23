@@ -168,7 +168,7 @@ H --> I[Prediction]
 ## 👨‍💻 Author
 
 **Ritesh Yadav**
-Data Scientist
+(Data Scientist)
 
 ---
 
