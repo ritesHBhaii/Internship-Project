@@ -132,13 +132,18 @@ H --> I[Prediction]
 
 ## 📊 Model Performance Comparison
 
-| Model | MAE ↓ | MSE ↓ | RMSE ↓ |
-|------|------|------|-------|-----------|
-| Linear Regression | 3707.3780058245347 | 835663131.1210337 | 28907.83857573986 |
-| Support Vector Regressor (SVR) | 1696.9438599505638 | 833685776.029172 | 28873.617300732723 |
-| Decision Tree Regressor | 2928.3821721311474 | 1204586096.3411884 | 34707.147626118574 |
-| Random Forest Regressor | 3340.6997305112673 | 704276951.6512243 | 26538.216813705178 |
-| Artificial Neural Network (ANN) | 3295.482602919386 | 829941777.187803 | 28808.710092397458 |
+| Rank | Model | MAE ↓ | MSE ↓ | RMSE ↓ |
+|------|------|------|------|-------|
+| 🥇 | **Random Forest Regressor** | 3340.70 | 704,276,951.65 | **26,538.22 🔥** |
+| 🥈 | Artificial Neural Network (ANN) | 3295.48 | 829,941,777.19 | 28,808.71 |
+| 🥉 | Support Vector Regressor (SVR) | 1696.94 | 833,685,776.03 | 28,873.62 |
+| 4️⃣ | Linear Regression | 3707.38 | 835,663,131.12 | 28,907.84 |
+| 5️⃣ | Decision Tree Regressor | 2928.38 | 1,204,586,096.34 | 34,707.15 ❌ |
+
+
+📌 **Best Model:** 🥇 Random Forest Regressor achieved the lowest RMSE, making it the most accurate and reliable model for predicting YouTube adview count.
+
+📌 **Observation:** Decision Tree showed the highest error, indicating overfitting and poor generalization compared to ensemble methods.
 
 
 ## 🏆 Final Result
