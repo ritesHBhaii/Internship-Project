@@ -130,11 +130,23 @@ H --> I[Prediction]
 
 ---
 
+## 📊 Model Performance Comparison
+
+| Model | MAE ↓ | MSE ↓ | RMSE ↓ |
+|------|------|------|-------|-----------|
+| Linear Regression | 3707.3780058245347 | 835663131.1210337 | 28907.83857573986 |
+| Support Vector Regressor (SVR) | 1696.9438599505638 | 833685776.029172 | 28873.617300732723 |
+| Decision Tree Regressor | 2928.3821721311474 | 1204586096.3411884 | 34707.147626118574 |
+| Random Forest Regressor | 3340.6997305112673 | 704276951.6512243 | 26538.216813705178 |
+| Artificial Neural Network (ANN) | 3295.482602919386 | 829941777.187803 | 28808.710092397458 |
+
+
 ## 🏆 Final Result
 
-* **Best Model:** Artificial Neural Network (ANN)
+* **Best Model:** Random Forest Regressor
 * Achieved improved prediction accuracy after preprocessing and tuning
 * Demonstrated strong generalization on test data
+* Lowest MSE
 
 ---
 
